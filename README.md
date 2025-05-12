@@ -155,3 +155,13 @@ Desenvolvido por [Othon Gonzaga](https://github.com/othongonzaga)
 ## 📄 Licença
 
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+## 📺 Imagens de teste no Postman 
+
+![img 1](https://github.com/user-attachments/assets/dd90d120-eb78-4e74-8699-a9c2ea1ae68e)
+![img 2](https://github.com/user-attachments/assets/7ef4513a-11ca-4e56-a209-799a96d2b48f)
+![img 3](https://github.com/user-attachments/assets/9ff92973-2823-420b-a477-871241fca05e)
+
+
