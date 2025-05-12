@@ -36,7 +36,9 @@ A aplicação segue a arquitetura MVC com separação clara de responsabilidades
 📁 Services          // Validação (ex: AuthService)
 📁 Models            // Entidades do banco (ex: User, Wallet, Transaction)
 📁 DTOs              // Data Transfer Objects para entrada e saída de dados
-📁 Data              // DbContext e Migrations
+📁 Data              // DbContext
+📁 Migrations        // Migrations
+
 ```
 
 ---
