@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWalletAPI", "DigitalWalletAPI\DigitalWalletAPI.csproj", "{CE755E19-7B55-4B6B-9E98-4BAEEBEBFDFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE755E19-7B55-4B6B-9E98-4BAEEBEBFDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE755E19-7B55-4B6B-9E98-4BAEEBEBFDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE755E19-7B55-4B6B-9E98-4BAEEBEBFDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE755E19-7B55-4B6B-9E98-4BAEEBEBFDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85ABC4AE-CB32-4439-9953-2AD62FEFBAFE}
+	EndGlobalSection
+EndGlobal

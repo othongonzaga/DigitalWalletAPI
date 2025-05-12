@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: postgres_wallet
+    environment:
+      POSTGRES_DB: DigitalWalletDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - walletnet
+
+  api:
+    build:
+      context: .
+      dockerfile: DigitalWalletAPI/Dockerfile
+    container_name: digitalwallet_api
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - walletnet
+
+volumes:
+  pgdata:
+
+networks:
+  walletnet:
