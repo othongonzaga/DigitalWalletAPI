@@ -1,4 +1,5 @@
-﻿using DigitalWalletAPI.Data;
+﻿using System.Security.Claims;
+using DigitalWalletAPI.Data;
 using DigitalWalletAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -25,7 +26,8 @@ namespace DigitalWalletAPI.Controllers
             try
             {
                 // Extraímos o UserId do token do usuário autenticado
-                var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "NameIdentifier")?.Value;
+                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
 
                 if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out var userId))
                 {
